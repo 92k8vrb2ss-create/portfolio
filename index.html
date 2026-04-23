@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Eldirani | Portfolio</title>
+
+  <!-- Suchmaschinenoptimierung -->
+  <meta name="description" content="Portfolio von Mohammad Eldirani. Web Developer in Ausbildung mit Projekten wie To‑Do‑App, Wetter‑App und Calculator‑App.">
+  <meta name="keywords" content="Mohammad Eldirani, Portfolio, Web Developer, HTML, CSS, JavaScript, To‑Do App, Wetter App, Calculator App">
+  <meta name="author" content="Mohammad Eldirani">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://mdirani2006-glitch.github.io/portfolio/">
+
+  <!-- Open Graph Meta Tags für Social Media -->
+  <meta property="og:title" content="Mohammad Eldirani | Portfolio">
+  <meta property="og:description" content="Web Developer in Ausbildung mit modernen Webprojekten.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mdirani2006-glitch.github.io/portfolio/">
+  <meta property="og:image" content="https://mdirani2006-glitch.github.io/portfolio/me.jpg">
+
+  <!-- Stylesheets und Icons -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome für Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation und Hero-Bereich -->
+  <header id="home">
+    <nav>
+      <div class="container nav-container">
+        <h1 class="logo"><span>Mohammad</span> Eldirani</h1>
+        <ul class="nav-links">
+          <li><a href="#home">Start</a></li>
+          <li><a href="#about">Über mich</a></li>
+          <li><a href="#skills">Fähigkeiten</a></li>
+          <li><a href="#projects">Projekte</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+        <div class="nav-right">
+          <button id="darkModeToggle" class="dark-toggle" aria-label="Dark Mode umschalten">🌙</button>
+          <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="container hero-container">
+        <div class="hero-text">
+          <p class="hero-badge">Web Developer in Ausbildung</p>
+          <h2>Hallo, ich bin <span>Mohammad Eldirani</span></h2>
+          <p class="hero-description">
+            Ich bin ein motivierter angehender Entwickler und erstelle moderne Webanwendungen
+            mit HTML, CSS und JavaScript.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn">Meine Projekte ansehen</a>
+            <a href="cv.pdf" class="btn btn-outline" download>Lebenslauf herunterladen</a>
+          </div>
+        </div>
+        <div class="hero-image-box">
+          <img src="me.jpg" alt="Foto von Mohammad Eldirani" class="hero-photo">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Über mich -->
+  <section id="about" class="fade-section">
+    <div class="container">
+      <h2>Über mich</h2>
+      <p class="section-text">
+        Ich bin ein angehender Softwareentwickler, der gerne moderne Webanwendungen erstellt
+        und neue Technologien lernt. Zu meinen Projekten gehören eine To‑Do‑Listen‑App,
+        eine Wetter‑App und eine Calculator‑App. Ich arbeite gerne praktisch und verbessere
+        meine Fähigkeiten Schritt für Schritt.
+      </p>
+    </div>
+  </section>
+
+  <!-- Fähigkeiten mit Icons -->
+  <section id="skills" class="fade-section">
+    <div class="container">
+      <h2>Fähigkeiten</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+          <h3>HTML5</h3>
+          <span class="stars">★★★★★</span>
+          <p>Strukturierte und saubere Webseiten mit modernen HTML-Elementen.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+          <h3>CSS3</h3>
+          <span class="stars">★★★★★</span>
+          <p>Responsive Design, Flexbox, Animationen und moderne UI-Gestaltung.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+          <h3>JavaScript</h3>
+          <span class="stars">★★★★☆</span>
+          <p>Guter Umgang mit DOM, Events, Local Storage und API‑Integration.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fa-brands fa-node-js"></i></div>
+          <h3>Node.js</h3>
+          <span class="stars">★★★☆☆</span>
+          <p>Grundkenntnisse in Node.js und Express für einfache Back‑End‑Lösungen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projekte mit drei Karten -->
+  <section id="projects" class="fade-section">
+    <div class="container">
+      <h2>Projekte</h2>
+      <div class="projects-grid">
+        <a href="todo-app/index.html" class="project-card">
+          <div class="project-top"><img src="todo-app.jpg" alt="To‑Do‑App"></div>
+          <div class="project-content">
+            <h3>To‑Do‑App</h3>
+            <p>Eine Aufgabenverwaltungs‑App mit Local Storage. Aufgaben können hinzugefügt, als erledigt markiert und gelöscht werden.</p>
+            <span class="project-link">Projekt öffnen →</span>
+          </div>
+        </a>
+        <a href="weather-app/index.html" class="project-card">
+          <div class="project-top"><img src="weather-app.jpg" alt="Wetter‑App"></div>
+          <div class="project-content">
+            <h3>Wetter‑App</h3>
+            <p>Eine Wetteranwendung mit API‑Anbindung. Sie zeigt Temperatur, Beschreibung und Icon für eine eingegebene Stadt.</p>
+            <span class="project-link">Projekt öffnen →</span>
+          </div>
+        </a>
+        <a href="calculator-app/index.html" class="project-card">
+          <div class="project-top"><img src="calculator-app.jpg" alt="Calculator‑App"></div>
+          <div class="project-content">
+            <h3>Calculator‑App</h3>
+            <p>Ein einfacher Online‑Rechner in JavaScript mit Grundrechenarten, klarer Oberfläche und Fehlerabfang.</p>
+            <span class="project-link">Projekt öffnen →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt mit Formular über Formspree -->
+  <section id="contact" class="fade-section">
+    <div class="container">
+      <h2>Kontakt</h2>
+      <div class="contact-box">
+        <p><strong>E‑Mail:</strong> <a href="mailto:mdirani2006@gmail.com">mdirani2006@gmail.com</a></p>
+        <p><strong>Telefon:</strong> <a href="tel:+49017640575834">+49 017640575834</a></p>
+      </div>
+      <!-- Das Formular sendet Daten an Formspree; ersetze die ID durch deine eigene Formspree-ID -->
+      <form class="contact-form" action="https://formspree.io/f/mwvawznw" method="POST">
+        <input type="text" name="name" placeholder="Dein Name" required>
+        <input type="email" name="email" placeholder="Deine E‑Mail" required>
+        <textarea name="message" rows="6" placeholder="Deine Nachricht" required></textarea>
+        <button type="submit" class="btn">Nachricht senden</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Mohammad Eldirani. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
